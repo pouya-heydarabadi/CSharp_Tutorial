@@ -1,4 +1,9 @@
-﻿using C_._01.Variable;
+﻿using CSharp._01.NullableType;
+using CSharp._01.Variable;
 
-SampleVar example = new();
-example.Main();
+SampleVar sampleVar = new();
+sampleVar.Main();
+
+
+SimpleNull _objSimpleNull = new();
+_objSimpleNull.main();
