@@ -23,9 +23,9 @@ public class RecordAndClassExec
         Console.WriteLine("------------------------");
 
         // Primary Class 
-        PrimaryPersonClass _objNewPrimaryPersonClass1 = new PrimaryPersonClass(Id: 1, FirstName: "Pouya", LastName: "Heydarabadi");
-        PrimaryPersonClass _objNewPrimaryPersonClass2 = new PrimaryPersonClass(Id: 1, FirstName: "Pouya", LastName: "Heydarabadi");
-        PrimaryPersonClass _objNewPrimaryPersonClass3 = new PrimaryPersonClass(Id: 2, FirstName: "Pouya", LastName: "Heydarabadi");
+        PrimaryPersonClass _objNewPrimaryPersonClass1 = new PrimaryPersonClass(Id: 1, FirstName: "Pouya", LastName: "Heydarabadi", 3);
+        PrimaryPersonClass _objNewPrimaryPersonClass2 = new PrimaryPersonClass(Id: 1, FirstName: "Pouya", LastName: "Heydarabadi", 3);
+        PrimaryPersonClass _objNewPrimaryPersonClass3 = new PrimaryPersonClass(Id: 2, FirstName: "Pouya", LastName: "Heydarabadi", 4);
 
         Console.WriteLine(value: _objNewPrimaryPersonClass1 == _objNewPrimaryPersonClass2); // False
         Console.WriteLine(value: _objNewPrimaryPersonClass1 == _objNewPrimaryPersonClass3); // False
