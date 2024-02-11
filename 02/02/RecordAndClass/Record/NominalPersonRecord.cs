@@ -1,4 +1,4 @@
-﻿namespace CSharp._02;
+﻿namespace CSharp._02.RecordAndClass.Record.;
 
 // Standard Property Record OR Nominal Record
 public class NominalPersonRecord

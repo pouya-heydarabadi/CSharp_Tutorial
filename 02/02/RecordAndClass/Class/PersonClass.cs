@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharp._02;
+namespace CSharp._02.RecordAndClass.Class.;
 
 public class NormalPersonClass
 {
