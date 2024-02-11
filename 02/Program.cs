@@ -1,3 +1,6 @@
-﻿#region Record VS Class
+﻿using _02._02.RecordAndClass.Functions;
 
-#endregion
+RecordAndClassExec _objNewRecordVsClass = new RecordAndClassExec();
+_objNewRecordVsClass.Execute();
+
+Console.ReadLine();
