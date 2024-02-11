@@ -1,6 +1,6 @@
 ﻿namespace CSharp._02.RecordAndClass.Class;
 
-public class NormalPersonClass
+public sealed class NormalPersonClass
 {
     public int Id { get; private set; }
     public string FirstName { get; private set; }

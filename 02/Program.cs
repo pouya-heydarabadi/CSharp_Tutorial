@@ -3,6 +3,8 @@ using _02._02.Ref_In_Out;
 using _02._02.Struct;
 using _02._02.Struct.Functions;
 
+using CSharp._02.RecordAndClass.Record;
+
 #region Record And Class
 //RecordAndClassExec _objNewRecordVsClass = new RecordAndClassExec();
 //_objNewRecordVsClass.Execute();
@@ -19,5 +21,4 @@ using _02._02.Struct.Functions;
 //_objNewRefrence.CallerOut();
 //_objNewRefrence.CallerIn();
 #endregion
-
 Console.ReadLine();
