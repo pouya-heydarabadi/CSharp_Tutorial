@@ -8,8 +8,8 @@ using _02._02.Struct.Functions;
 #endregion
 
 #region Struct
-StructExec _objStructExecute = new StructExec();
-_objStructExecute.Execute();
+//StructExec _objStructExecute = new StructExec();
+//_objStructExecute.Execute();
 #endregion
 
 Console.ReadLine();
