@@ -43,10 +43,17 @@
 #endregion
 
 #region Action
+using _02._02.Delegates.Delegate.Func;
+
 
 #endregion
 
 #region Func
+
+int[] input = { 2, 2, 3 };
+FuncSample.Main(FuncSample.Calculator, input);
+Console.WriteLine(Environment.NewLine);
+FuncSample.Main(FuncSample.Calculator2, input);
 
 #endregion
 #endregion
