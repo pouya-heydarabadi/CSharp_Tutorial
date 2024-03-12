@@ -1,4 +1,5 @@
-﻿using _02._02.RecordAndClass.Functions;
+﻿using _02._02.ArraySample;
+using _02._02.RecordAndClass.Functions;
 using _02._02.Ref_In_Out;
 using _02._02.Struct;
 using _02._02.Struct.Functions;
@@ -20,5 +21,14 @@ using CSharp._02.RecordAndClass.Record;
 //_objNewRefrence.CallerRef();
 //_objNewRefrence.CallerOut();
 //_objNewRefrence.CallerIn();
+#endregion
+
+#region Array
+//SimpleArray _objNewArray = new SimpleArray();
+//_objNewArray.main();
+//ArrayDimension.main();
+//JaggedArray.main();
+//ArrayClass.main();
+EnumeratorArray.Main();
 #endregion
 Console.ReadLine();
