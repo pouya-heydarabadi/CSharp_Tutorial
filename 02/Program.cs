@@ -1,11 +1,4 @@
-﻿using _02._02.RecordAndClass.Functions;
-using _02._02.Ref_In_Out;
-using _02._02.Struct;
-using _02._02.Struct.Functions;
-
-using CSharp._02.RecordAndClass.Record;
-
-#region Record And Class
+﻿#region Record And Class
 //RecordAndClassExec _objNewRecordVsClass = new RecordAndClassExec();
 //_objNewRecordVsClass.Execute();
 #endregion
@@ -20,5 +13,41 @@ using CSharp._02.RecordAndClass.Record;
 //_objNewRefrence.CallerRef();
 //_objNewRefrence.CallerOut();
 //_objNewRefrence.CallerIn();
+#endregion
+
+#region Array
+//SimpleArray _objNewArray = new SimpleArray();
+//_objNewArray.main();
+//ArrayDimension.main();
+//JaggedArray.main();
+//ArrayClass.main();
+//EnumeratorArray.Main();
+#endregion
+
+#region Delegates
+
+#region Del
+//Person objNewPerson = new()
+//{
+//    Id = Guid.NewGuid(),
+//    FirstName = "Pouya",
+//    LastName = "Heydarabadi"
+//};
+//DelegateSample.Execute(DelegateSample.CalculateFullName1,
+//    person: objNewPerson);
+
+//Console.WriteLine(Environment.NewLine);
+
+//DelegateSample.Execute(DelegateSample.CalculateFullName2,
+//    person: objNewPerson);
+#endregion
+
+#region Action
+
+#endregion
+
+#region Func
+
+#endregion
 #endregion
 Console.ReadLine();
