@@ -1,4 +1,6 @@
-﻿using _02._02.Delegates.MultiCastDelegates;
+﻿using _02._02.Delegates.AnonymouseMethods;
+using _02._02.Delegates.LamdaExperssions;
+using _02._02.Delegates.MultiCastDelegates;
 
 #region Record And Class
 //RecordAndClassExec _objNewRecordVsClass = new RecordAndClassExec();
@@ -66,11 +68,22 @@
 #endregion
 
 #region MultiCastDelegate
+//MultiCastExecute objMultiCastExecute = new MultiCastExecute();
+//objMultiCastExecute.ExecuteWithOutOutput();
+#endregion
 
-MultiCastExecute objMultiCastExecute = new MultiCastExecute();
-objMultiCastExecute.ExecuteWithOutOutput();
+#region Anonymouse Method
+
+//AnonymousMethodExecute objNewAnonymousMethod = new();
+//objNewAnonymousMethod.Execute();
 
 #endregion
+
+#region Labmda Experssions
+//LambdaExperssionsExecute objLambdaExperssionsExecute = new();
+//objLambdaExperssionsExecute.Execute();
+#endregion
+
 #endregion
 
 #region Generics
