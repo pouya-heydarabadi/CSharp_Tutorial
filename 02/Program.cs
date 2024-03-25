@@ -1,4 +1,5 @@
 ﻿using _02._02.Delegates.AnonymouseMethods;
+using _02._02.Delegates.Events;
 using _02._02.Delegates.LamdaExperssions;
 using _02._02.Delegates.MultiCastDelegates;
 
@@ -84,6 +85,10 @@ using _02._02.Delegates.MultiCastDelegates;
 //objLambdaExperssionsExecute.Execute();
 #endregion
 
+#region Event
+EventExecute objNewEventExec = new();
+objNewEventExec.Execute();
+#endregion
 #endregion
 
 #region Generics
