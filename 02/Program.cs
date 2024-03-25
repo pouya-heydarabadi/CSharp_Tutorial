@@ -1,4 +1,6 @@
-﻿#region Record And Class
+﻿using _02._02.Delegates.MultiCastDelegates;
+
+#region Record And Class
 //RecordAndClassExec _objNewRecordVsClass = new RecordAndClassExec();
 //_objNewRecordVsClass.Execute();
 #endregion
@@ -62,10 +64,16 @@
 //FuncSample.Main(FuncSample.Calculator2, input);
 
 #endregion
+
+#region MultiCastDelegate
+
+MultiCastExecute objMultiCastExecute = new MultiCastExecute();
+objMultiCastExecute.ExecuteWithOutOutput();
+
+#endregion
 #endregion
 
 #region Generics
-using _05._05;
 //Console.WriteLine("Hello, World!");
 //GenericConcat<int> genericConcatInt = new GenericConcat<int>();
 //var result = genericConcatInt.Concat(1, 2);
