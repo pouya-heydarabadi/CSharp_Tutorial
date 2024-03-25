@@ -1,4 +1,5 @@
-﻿using _02._02.Delegates.AnonymouseMethods;
+﻿using _02._02.CollectionsSample.ListSample;
+using _02._02.Delegates.AnonymouseMethods;
 using _02._02.Delegates.Events;
 using _02._02.Delegates.LamdaExperssions;
 using _02._02.Delegates.MultiCastDelegates;
@@ -86,8 +87,8 @@ using _02._02.Delegates.MultiCastDelegates;
 #endregion
 
 #region Event
-EventExecute objNewEventExec = new();
-objNewEventExec.Execute();
+//EventExecute objNewEventExec = new();
+//objNewEventExec.Execute();
 #endregion
 #endregion
 
@@ -106,5 +107,43 @@ objNewEventExec.Execute();
 
 //var resultPerson = genericConcatPerson.Concat(new Person { FirstName = "TestFirstName", LastName = "TesLastName" }, new Person { FirstName = "Arbab", LastName = "Arbabi" });
 //Console.WriteLine(resultPerson);
+#endregion
+
+#region Collections
+#region List
+ListSampleExecute<string> listSampleExecute_string = new ListSampleExecute<string>();
+
+// Capacity Is 0-4-8-16-32-64-128-256-512-1024 ,...
+listSampleExecute_string.ReturnCapacity();
+listSampleExecute_string.AddMember("pouya");
+listSampleExecute_string.ReturnCapacity();
+listSampleExecute_string.AddMember("alireza");
+listSampleExecute_string.ReturnCapacity();
+listSampleExecute_string.AddMember("pedram");
+listSampleExecute_string.AddMember("milad"); 
+listSampleExecute_string.ReturnCapacity();// Capacity Is 4
+
+listSampleExecute_string.AddMember("masoud");
+listSampleExecute_string.ReturnCapacity(); // Capacity Is 8
+Console.WriteLine($"Start -- {nameof(ListSampleExecute<int>)}"+ Environment.NewLine);
+
+//perf: You Can Improve Performance With Set Capacity Manual When Init List 
+// Because Is Best For Memory Allocation And ...
+
+ListSampleExecute<int> listSampleExecute_int = new ListSampleExecute<int>();
+listSampleExecute_int.SetCapacity(10);
+listSampleExecute_int.AddMember(1);
+listSampleExecute_int.ReturnCapacity();
+
+// You Can Trim Unnecessary  
+listSampleExecute_int.Trim();
+listSampleExecute_int.ReturnCapacity();
+
+// Here Class My List Is ReadOnly 
+// But In This BaseClass List Type Is NotReadOnly 
+listSampleExecute_int.ConvertToReadOnlyList();
+listSampleExecute_int.AddMember(23);
+;
+#endregion
 #endregion
 Console.ReadLine();
