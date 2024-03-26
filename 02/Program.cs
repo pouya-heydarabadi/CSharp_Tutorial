@@ -3,6 +3,7 @@
 using _02._02.CollectionsSample.LinkedListSample;
 using _02._02.CollectionsSample.ListSample;
 using _02._02.CollectionsSample.QueueSample;
+using _02._02.CollectionsSample.SortedListSample;
 using _02._02.CollectionsSample.StackSample;
 using _02._02.Delegates.AnonymouseMethods;
 using _02._02.Delegates.Events;
@@ -215,8 +216,21 @@ using _02._02.Delegates.MultiCastDelegates;
 #endregion
 
 #region LinkedList
-LinkedListExecute<string> linkedListExecute = new LinkedListExecute<string>();
-linkedListExecute.Execute(new List<string> { "pouya", "hamid", "reza" });
+//LinkedListExecute<string> linkedListExecute = new LinkedListExecute<string>();
+//linkedListExecute.Execute(new List<string> { "pouya", "hamid", "reza" });
+#endregion
+
+#region SortedList
+SortedListExecute<string> objSortedListExecute = new SortedListExecute<string>();
+
+objSortedListExecute.Execute(new List<string>
+{
+    "alireza",
+    "sara",
+    "hossein",
+    "milad"
+});
+
 
 #endregion
 #endregion
