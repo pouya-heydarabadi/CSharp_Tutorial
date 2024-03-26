@@ -1,5 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 
+using _02._02.CollectionsSample.LinkedListSample;
 using _02._02.CollectionsSample.ListSample;
 using _02._02.CollectionsSample.QueueSample;
 using _02._02.CollectionsSample.StackSample;
@@ -209,8 +210,13 @@ using _02._02.Delegates.MultiCastDelegates;
 #endregion
 
 #region Stack
-StackExecute<int> stackExecute = new StackExecute<int>();
-stackExecute.Execute(new List<int> { 1, 2, 3, 4, 5, 6, 7, 8 });
+//StackExecute<int> stackExecute = new StackExecute<int>();
+//stackExecute.Execute(new List<int> { 1, 2, 3, 4, 5, 6, 7, 8 });
+#endregion
+
+#region LinkedList
+LinkedListExecute<string> linkedListExecute = new LinkedListExecute<string>();
+linkedListExecute.Execute(new List<string> { "pouya", "hamid", "reza" });
 
 #endregion
 #endregion
