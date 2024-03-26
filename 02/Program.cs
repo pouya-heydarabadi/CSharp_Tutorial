@@ -2,6 +2,7 @@
 
 using _02._02.CollectionsSample.ListSample;
 using _02._02.CollectionsSample.QueueSample;
+using _02._02.CollectionsSample.StackSample;
 using _02._02.Delegates.AnonymouseMethods;
 using _02._02.Delegates.Events;
 using _02._02.Delegates.LamdaExperssions;
@@ -183,29 +184,34 @@ using _02._02.Delegates.MultiCastDelegates;
 #endregion
 
 #region PriorityQueue
-PriorityQueueSample<int, int> priorityQueueSample = new PriorityQueueSample<int, int>();
-priorityQueueSample.Add(1, 1);
-priorityQueueSample.Add(5, 2);
-priorityQueueSample.Add(7, 4);
-priorityQueueSample.Add(9, 3);
-priorityQueueSample.Add(11, 5);
+//PriorityQueueSample<int, int> priorityQueueSample = new PriorityQueueSample<int, int>();
+//priorityQueueSample.Add(1, 1);
+//priorityQueueSample.Add(5, 2);
+//priorityQueueSample.Add(7, 4);
+//priorityQueueSample.Add(9, 3);
+//priorityQueueSample.Add(11, 5);
 
-Console.WriteLine("-----Peek------");
-int findQueueCount = priorityQueueSample.objPriorityQueue.Count;
+//Console.WriteLine("-----Peek------");
+//int findQueueCount = priorityQueueSample.objPriorityQueue.Count;
 
-for (int i = 0; i < findQueueCount; i++)
-{
-    Console.WriteLine(priorityQueueSample.Peek());
-}
-Console.WriteLine("-----DeQueue------");
+//for (int i = 0; i < findQueueCount; i++)
+//{
+//    Console.WriteLine(priorityQueueSample.Peek());
+//}
+//Console.WriteLine("-----DeQueue------");
 
-for (int i = 0; i < findQueueCount; i++)
-{
-    Console.WriteLine(priorityQueueSample.DeQueue());
-}
+//for (int i = 0; i < findQueueCount; i++)
+//{
+//    Console.WriteLine(priorityQueueSample.DeQueue());
+//}
 
 
 #endregion
 
+#region Stack
+StackExecute<int> stackExecute = new StackExecute<int>();
+stackExecute.Execute(new List<int> { 1, 2, 3, 4, 5, 6, 7, 8 });
+
+#endregion
 #endregion
 Console.ReadLine();
