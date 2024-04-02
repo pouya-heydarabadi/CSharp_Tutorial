@@ -1,5 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 
+using _02._02.CollectionsSample.DictionarySample;
 using _02._02.CollectionsSample.LinkedListSample;
 using _02._02.CollectionsSample.ListSample;
 using _02._02.CollectionsSample.QueueSample;
@@ -221,17 +222,30 @@ using _02._02.Delegates.MultiCastDelegates;
 #endregion
 
 #region SortedList
-SortedListExecute<string> objSortedListExecute = new SortedListExecute<string>();
+//SortedListExecute<string> objSortedListExecute = new SortedListExecute<string>();
 
-objSortedListExecute.Execute(new List<string>
-{
-    "alireza",
-    "sara",
-    "hossein",
-    "milad"
-});
+//objSortedListExecute.Execute(new List<string>
+//{
+//    "alireza",
+//    "sara",
+//    "hossein",
+//    "milad"
+//});
 
 
 #endregion
+
+#region Dictionary
+
+DictionaryExecution dictionaryExecution = new DictionaryExecution();
+
+dictionaryExecution.Add(1, "pouya");
+dictionaryExecution.Add(2, "sara");
+
+Console.WriteLine(dictionaryExecution.Get(1));
+dictionaryExecution.PrintAll();
+
+#endregion
+
 #endregion
 Console.ReadLine();
