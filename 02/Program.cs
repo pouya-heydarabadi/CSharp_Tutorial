@@ -4,6 +4,7 @@ using _02._02.CollectionsSample.DictionarySample;
 using _02._02.CollectionsSample.LinkedListSample;
 using _02._02.CollectionsSample.ListSample;
 using _02._02.CollectionsSample.QueueSample;
+using _02._02.CollectionsSample.SetSample;
 using _02._02.CollectionsSample.SortedDictionarySample;
 using _02._02.CollectionsSample.SortedListSample;
 using _02._02.CollectionsSample.StackSample;
@@ -249,15 +250,33 @@ using _02._02.Delegates.MultiCastDelegates;
 #endregion
 
 #region Sorted Dictionary
-SortedDictionaryExecution sortedDictionaryExecution = new SortedDictionaryExecution();
+//SortedDictionaryExecution sortedDictionaryExecution = new SortedDictionaryExecution();
 
-sortedDictionaryExecution.Add(1, "hi");
-sortedDictionaryExecution.Add(2, "salam");
+//sortedDictionaryExecution.Add(1, "hi");
+//sortedDictionaryExecution.Add(2, "salam");
 
-sortedDictionaryExecution.PrintAll();
+//sortedDictionaryExecution.PrintAll();
 
-sortedDictionaryExecution.Get(2);
+//sortedDictionaryExecution.Get(2);
 
+#endregion
+
+#region Set Aggregate
+#region SortedSet
+SortedSetExecute sortedSetExecute = new SortedSetExecute();
+
+sortedSetExecute.Add(1);
+sortedSetExecute.Add(2);
+sortedSetExecute.Add(3);
+
+// Not Add In To SortedSet Because Is Duplicate
+sortedSetExecute.Add(3);
+
+sortedSetExecute.PrintAll();
+
+
+
+#endregion
 #endregion
 
 #endregion
