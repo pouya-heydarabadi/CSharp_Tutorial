@@ -275,6 +275,12 @@
 
 #endregion
 
+#region Immutablecollection
+using _02._02.CollectionsSample.ImmutableCollectionSample;
+
+ImmutableCollectionExecution immutableCollectionExecution = new ImmutableCollectionExecution();
+immutableCollectionExecution.PrintAll();
+#endregion
 #endregion
 
 #endregion
