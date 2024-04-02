@@ -4,6 +4,7 @@ using _02._02.CollectionsSample.DictionarySample;
 using _02._02.CollectionsSample.LinkedListSample;
 using _02._02.CollectionsSample.ListSample;
 using _02._02.CollectionsSample.QueueSample;
+using _02._02.CollectionsSample.SortedDictionarySample;
 using _02._02.CollectionsSample.SortedListSample;
 using _02._02.CollectionsSample.StackSample;
 using _02._02.Delegates.AnonymouseMethods;
@@ -237,13 +238,25 @@ using _02._02.Delegates.MultiCastDelegates;
 
 #region Dictionary
 
-DictionaryExecution dictionaryExecution = new DictionaryExecution();
+//DictionaryExecution dictionaryExecution = new DictionaryExecution();
 
-dictionaryExecution.Add(1, "pouya");
-dictionaryExecution.Add(2, "sara");
+//dictionaryExecution.Add(1, "pouya");
+//dictionaryExecution.Add(2, "sara");
 
-Console.WriteLine(dictionaryExecution.Get(1));
-dictionaryExecution.PrintAll();
+//Console.WriteLine(dictionaryExecution.Get(1));
+//dictionaryExecution.PrintAll();
+
+#endregion
+
+#region Sorted Dictionary
+SortedDictionaryExecution sortedDictionaryExecution = new SortedDictionaryExecution();
+
+sortedDictionaryExecution.Add(1, "hi");
+sortedDictionaryExecution.Add(2, "salam");
+
+sortedDictionaryExecution.PrintAll();
+
+sortedDictionaryExecution.Get(2);
 
 #endregion
 
