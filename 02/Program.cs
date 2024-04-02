@@ -263,20 +263,33 @@ using _02._02.Delegates.MultiCastDelegates;
 
 #region Set Aggregate
 #region SortedSet
-SortedSetExecute sortedSetExecute = new SortedSetExecute();
+//SortedSetExecute sortedSetExecute = new SortedSetExecute();
 
-sortedSetExecute.Add(1);
-sortedSetExecute.Add(2);
-sortedSetExecute.Add(3);
+//sortedSetExecute.Add(1);
+//sortedSetExecute.Add(2);
+//sortedSetExecute.Add(3);
 
-// Not Add In To SortedSet Because Is Duplicate
-sortedSetExecute.Add(3);
+//// Not Add In To SortedSet Because Is Duplicate
+//sortedSetExecute.Add(3);
 
-sortedSetExecute.PrintAll();
+//sortedSetExecute.PrintAll();
 
 
 
 #endregion
+
+#region HashSet
+
+HashSetExecute hashSetExecute = new HashSetExecute();
+
+hashSetExecute.Add(1);
+hashSetExecute.Add(2);
+hashSetExecute.Add(2);
+
+hashSetExecute.PrintAll();
+
+#endregion
+
 #endregion
 
 #endregion
