@@ -1,19 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-
-using _02._02.CollectionsSample.DictionarySample;
-using _02._02.CollectionsSample.LinkedListSample;
-using _02._02.CollectionsSample.ListSample;
-using _02._02.CollectionsSample.QueueSample;
-using _02._02.CollectionsSample.SetSample;
-using _02._02.CollectionsSample.SortedDictionarySample;
-using _02._02.CollectionsSample.SortedListSample;
-using _02._02.CollectionsSample.StackSample;
-using _02._02.Delegates.AnonymouseMethods;
-using _02._02.Delegates.Events;
-using _02._02.Delegates.LamdaExperssions;
-using _02._02.Delegates.MultiCastDelegates;
-
-#region Record And Class
+﻿#region Record And Class
 //RecordAndClassExec _objNewRecordVsClass = new RecordAndClassExec();
 //_objNewRecordVsClass.Execute();
 #endregion
@@ -280,13 +265,13 @@ using _02._02.Delegates.MultiCastDelegates;
 
 #region HashSet
 
-HashSetExecute hashSetExecute = new HashSetExecute();
+//HashSetExecute hashSetExecute = new HashSetExecute();
 
-hashSetExecute.Add(1);
-hashSetExecute.Add(2);
-hashSetExecute.Add(2);
+//hashSetExecute.Add(1);
+//hashSetExecute.Add(2);
+//hashSetExecute.Add(2);
 
-hashSetExecute.PrintAll();
+//hashSetExecute.PrintAll();
 
 #endregion
 
