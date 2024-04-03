@@ -285,8 +285,13 @@
 
 #region Exception Handling
 
-ExceptionHandlingExecute exceptionHandlingExecute = new ExceptionHandlingExecute();
-Console.WriteLine(exceptionHandlingExecute.DivTwoNumber(1,0));
+//ExceptionHandlingExecute exceptionHandlingExecute = new ExceptionHandlingExecute();
+//Console.WriteLine(exceptionHandlingExecute.DivTwoNumber(1,0));
+
+#region Custom ExceptionHandling
+CustomExceptionHandlingExecute customExceptionHandlingExecute = new CustomExceptionHandlingExecute();
+customExceptionHandlingExecute.DivTwoNumber(1,0);
+#endregion
 #endregion
 #endregion
 
