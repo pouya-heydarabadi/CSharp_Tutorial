@@ -1,4 +1,7 @@
-﻿#region Record And Class
+﻿using _02._02.ExceptionHandlingSample;
+
+
+#region Record And Class
 //RecordAndClassExec _objNewRecordVsClass = new RecordAndClassExec();
 //_objNewRecordVsClass.Execute();
 #endregion
@@ -276,10 +279,14 @@
 #endregion
 
 #region Immutablecollection
-using _02._02.CollectionsSample.ImmutableCollectionSample;
+//ImmutableCollectionExecution immutableCollectionExecution = new ImmutableCollectionExecution();
+//immutableCollectionExecution.PrintAll();
+#endregion
 
-ImmutableCollectionExecution immutableCollectionExecution = new ImmutableCollectionExecution();
-immutableCollectionExecution.PrintAll();
+#region Exception Handling
+
+ExceptionHandlingExecute exceptionHandlingExecute = new ExceptionHandlingExecute();
+Console.WriteLine(exceptionHandlingExecute.DivTwoNumber(1,0));
 #endregion
 #endregion
 
