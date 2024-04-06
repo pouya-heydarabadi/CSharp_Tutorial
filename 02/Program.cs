@@ -1,14 +1,5 @@
-﻿using System.Runtime.CompilerServices;
+﻿using _02._02.ExceptionHandlingSample;
 
-using _02._02.CollectionsSample.LinkedListSample;
-using _02._02.CollectionsSample.ListSample;
-using _02._02.CollectionsSample.QueueSample;
-using _02._02.CollectionsSample.SortedListSample;
-using _02._02.CollectionsSample.StackSample;
-using _02._02.Delegates.AnonymouseMethods;
-using _02._02.Delegates.Events;
-using _02._02.Delegates.LamdaExperssions;
-using _02._02.Delegates.MultiCastDelegates;
 
 #region Record And Class
 //RecordAndClassExec _objNewRecordVsClass = new RecordAndClassExec();
@@ -221,17 +212,88 @@ using _02._02.Delegates.MultiCastDelegates;
 #endregion
 
 #region SortedList
-SortedListExecute<string> objSortedListExecute = new SortedListExecute<string>();
+//SortedListExecute<string> objSortedListExecute = new SortedListExecute<string>();
 
-objSortedListExecute.Execute(new List<string>
-{
-    "alireza",
-    "sara",
-    "hossein",
-    "milad"
-});
+//objSortedListExecute.Execute(new List<string>
+//{
+//    "alireza",
+//    "sara",
+//    "hossein",
+//    "milad"
+//});
 
 
 #endregion
+
+#region Dictionary
+
+//DictionaryExecution dictionaryExecution = new DictionaryExecution();
+
+//dictionaryExecution.Add(1, "pouya");
+//dictionaryExecution.Add(2, "sara");
+
+//Console.WriteLine(dictionaryExecution.Get(1));
+//dictionaryExecution.PrintAll();
+
+#endregion
+
+#region Sorted Dictionary
+//SortedDictionaryExecution sortedDictionaryExecution = new SortedDictionaryExecution();
+
+//sortedDictionaryExecution.Add(1, "hi");
+//sortedDictionaryExecution.Add(2, "salam");
+
+//sortedDictionaryExecution.PrintAll();
+
+//sortedDictionaryExecution.Get(2);
+
+#endregion
+
+#region Set Aggregate
+#region SortedSet
+//SortedSetExecute sortedSetExecute = new SortedSetExecute();
+
+//sortedSetExecute.Add(1);
+//sortedSetExecute.Add(2);
+//sortedSetExecute.Add(3);
+
+//// Not Add In To SortedSet Because Is Duplicate
+//sortedSetExecute.Add(3);
+
+//sortedSetExecute.PrintAll();
+
+
+
+#endregion
+
+#region HashSet
+
+//HashSetExecute hashSetExecute = new HashSetExecute();
+
+//hashSetExecute.Add(1);
+//hashSetExecute.Add(2);
+//hashSetExecute.Add(2);
+
+//hashSetExecute.PrintAll();
+
+#endregion
+
+#region Immutablecollection
+//ImmutableCollectionExecution immutableCollectionExecution = new ImmutableCollectionExecution();
+//immutableCollectionExecution.PrintAll();
+#endregion
+
+#region Exception Handling
+
+//ExceptionHandlingExecute exceptionHandlingExecute = new ExceptionHandlingExecute();
+//Console.WriteLine(exceptionHandlingExecute.DivTwoNumber(1,0));
+
+#region Custom ExceptionHandling
+CustomExceptionHandlingExecute customExceptionHandlingExecute = new CustomExceptionHandlingExecute();
+customExceptionHandlingExecute.DivTwoNumber(1,0);
+#endregion
+#endregion
+#endregion
+
 #endregion
 Console.ReadLine();
